@@ -10,9 +10,11 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
+    "@expo/browser-polyfill": "^1.0.1",
     "@react-native-picker/picker": "2.7.5",
     "expo": "^51.0.17",
     "expo-asset": "~10.0.10",
+    "expo-asset-utils": "^3.0.0",
     "expo-build-properties": "~0.12.3",
     "expo-constants": "~16.0.2",
     "expo-crypto": "~13.0.2",
